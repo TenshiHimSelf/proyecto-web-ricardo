@@ -48,7 +48,7 @@ if (isset($_POST["login"])) {
   }
   $_SESSION['login_error'] = 'Email o Contraseña Incorrecta';
   $_SESSION['active_form'] = 'login';
-  header('Location login.php');
+  header("Location: ../login.php");
   exit();
 
 }  
