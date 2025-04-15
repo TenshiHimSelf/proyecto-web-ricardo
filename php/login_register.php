@@ -22,6 +22,7 @@ if (isset($_POST['register'])) {
 }
 
 
+
 if (isset($_POST["login"])) {
   $email = $_POST['email'];
   $password = $_POST['password'];
@@ -34,10 +35,10 @@ if (isset($_POST["login"])) {
       $_SESSION['email'] = $user['email'];
 
       if ($user['role'] === 'admin') {
-        header('Location: php/admin_page.php');
+        header('Location: admin_page.php');
 
       } else {
-        header('Location: php/user_page.php');
+        header('Location: user_page.php');
       }
       exit();
 
