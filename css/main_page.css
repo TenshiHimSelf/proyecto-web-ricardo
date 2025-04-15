@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Signika Negative", serif;
+}
+
+body {
+  background: #fff;
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+span {
+  color: #7494ec;
+}
+
+.box p {
+  font-size: 22px;
+}
+
+
+.box button {
+  display: block;
+  width: 300px;
+  margin: 0, auto;
+}
