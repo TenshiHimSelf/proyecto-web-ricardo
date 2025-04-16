@@ -18,9 +18,40 @@ nav {
   left: 0px;
   width: 100%;
   padding: 20px, 9%;
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: flex-end; /* Aligns the button to the right */
+  justify-content: space-between;
   align-items: center;
+  z-index: 100;
+}
+
+
+.logo {
+  font-size: 35px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav .cart-icon {
+  position: relative;
+  font-size: 30px;
+  color: #333;
+  display: flex;
+}
+
+nav .cart-icon .cart-item-count {
+  position: relative;
+  top: 0;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  background: #e35f26;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  display: none;
 }

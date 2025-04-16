@@ -35,10 +35,10 @@ if (isset($_POST["login"])) {
       $_SESSION['email'] = $user['email'];
 
       if ($user['role'] === 'admin') {
-        header('Location: admin_page.php');
+        header('Location: ../user_page.php');
 
       } else {
-        header('Location: user_page.php');
+        header('Location: ../user_page.php');
       }
       exit();
 
