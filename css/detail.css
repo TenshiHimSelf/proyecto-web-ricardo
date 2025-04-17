@@ -7,6 +7,9 @@
   font-family: "Signika Negative", serif;
 }
 
+
+
+
 body {
   background: linear-gradient(to right, #e2e2e2, #91d4ee);
   color: #333;
@@ -57,50 +60,14 @@ nav .cart-icon .cart-item-count {
 }
 
 
-.product-collection {
-  padding: 100px 9% 30px;
-}
-
-.product-collection h1{
-  font-size: 35px;
-  text-align: center;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
 
 
-.product-collection .product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
 
-.product-collection .img-box {
-  display: flex;
-  overflow: hidden;
-  cursor: pointer;
-}
 
-.product-collection .img-box img {
-  width: 100%;
-  transition: 0.5s;
-}
 
-.product-collection .img-box:hover img {
-  transform: scale(1.1);
-}
 
-.product-collection .title {
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: 10px;
-}
 
-.product-collection .price {
-  display: block;
-  font-weight: bold;
-  margin-top: 5px;
-}
+
 
 
 
@@ -108,15 +75,14 @@ nav .cart-icon .cart-item-count {
 
 .product-detail {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Corregido el uso de repeat */
   gap: 40px;
-  padding: 130px, 9%, 30px;
+  padding: 130px 9% 30px; /* Corregido el uso de comas por espacios */
 }
-
 
 .product-detail .product-img {
   display: grid;
-  grid-template-columns: 1fr, 4fr;
+  grid-template-columns: 1fr 4fr; /* Corregido el uso de comas por espacios */
   gap: 12px;
   height: 550px;
 }

@@ -15,7 +15,7 @@ function displayProduct() {
       <div class="img-box">
         <img src="${product.colors[0].mainImage}">
       </div>
-      <h2 class="tittle">${product.title}</h2>
+      <h2 class="title">${product.title}</h2>
       <span class="price">${product.price}</span>
     `;  
     productContainer.appendChild(productCard);
@@ -23,7 +23,7 @@ function displayProduct() {
     const imgBox = productCard.querySelector(".img-box");
     imgBox.addEventListener("click", () => {
       sessionStorage.setItem("selectedProduct", JSON.stringify(product));
-      window.location.href = product.detail.html
+      window.location.href = "product_detail.php";
     });
   });
 }

@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['email'])) {
-  header("Location: ../login.php");
+  header("Location: login.php");
   exit();
 }
 
@@ -32,6 +32,8 @@ if (!isset($_SESSION['email'])) {
   </nav>
 
   <section class="product-collection">
+    <!--Revisar bien los directorios-->
+  <button onclick="window.location.href='php/logout.php'">logout</button>
     <h1>Latest Collection</h1>
     <div class="product-list">
 
