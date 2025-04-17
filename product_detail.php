@@ -32,13 +32,10 @@ if (!isset($_SESSION['email'])) {
   <div class="product-detail">
     <div class="product-img">
       <div class="thumbnail-list">
-        <img src="images/product1_green_1.jpg">
-        <img src="images/product1_green_2.jpg">
-        <img src="images/product1_green_3.jpg">
-        <img src="images/product1_green_4.jpg">
+
       </div>
       <div class="main-img">
-        <img src="images/product1_green_1.jpg">
+
       </div>
     </div>
 
@@ -48,7 +45,7 @@ if (!isset($_SESSION['email'])) {
 
 
     <div class="product-info">
-      <h2 class="title">Men Casual Round Neck T-shirt</h2>
+      <h2 class="title"></h2>
       <div class="rating">
         <i class="ri-star-fill"></i>
         <i class="ri-star-fill"></i>
@@ -57,26 +54,18 @@ if (!isset($_SESSION['email'])) {
         <i class="ri-star-half-fill"></i>
         <span>(4.5)</span>
       </div>
-      <span class="price">$100</span>
-      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo unde consectetur quas veritatis magni, praesentium atque sequi reiciendis vero ullam pariatur ex facilis a ea. Nemo quidem sit autem eos.</p>
+      <span class="price"></span>
+      <p class="description"></p>
       <div class="size-selection">
         <p>Select Size</p>
         <div class="size-options">
-          <button class="selected">5</button>
-          <button>M</button>
-          <button>L</button>
-          <button>XL</button>
-          <button>XXL</button>
+
         </div>
       </div>
       <div class="color-selection">
         <p>Select Color</p>
         <div class="color-options">
-          <img src="images/product1_green_1.jpg" class="selected">
-          <img src="images/product1_yellow_1.jpg">
-          <img src="images/product1_red_1.jpg">
-          <img src="images/product1_white_1.jpg">
-          <img src="images/product1_maroon_1.jpg">
+
         </div>
       </div>
       <button class="btn" id="add-cart-btn">Add to Cart</button>
