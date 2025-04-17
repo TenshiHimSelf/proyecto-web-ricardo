@@ -42,7 +42,7 @@ if (!isset($_SESSION['email'])) {
 
 
 
-
+  <script src="js/products.js"></script>
   <script src="js/main_page.js"></script>
 </body>
 </html>
