@@ -1,6 +1,6 @@
 # Proyecto-Web
 
-Este proyecto es una aplicación web básica que incluye funcionalidades de registro, inicio de sesión y gestión de usuarios con roles. Está desarrollado en PHP y utiliza MySQL como base de datos.
+Este proyecto es una aplicación web básica que incluye funcionalidades de registro, inicio de sesión, gestión de usuarios con roles y un carrito de compras. Está desarrollado en PHP y utiliza MySQL como base de datos.
 
 ## Estructura del Proyecto
 
@@ -8,7 +8,9 @@ Este proyecto es una aplicación web básica que incluye funcionalidades de regi
 login.php
 product_detail.php
 user_page.php
+cart.html
 css/
+    cart.css
     detail.css
     login.css
     main_page.css
@@ -23,6 +25,10 @@ php/
     config.php
     login_register.php
     logout.php
+config/
+    db_config.sql
+.gitignore
+README.md
 ```
 
 ### Archivos y Carpetas Principales
@@ -30,7 +36,9 @@ php/
 - **login.php**: Página principal para el inicio de sesión y registro de usuarios.
 - **product_detail.php**: Página para mostrar los detalles de un producto.
 - **user_page.php**: Página para usuarios con rol estándar.
+- **cart.html**: Página para gestionar el carrito de compras.
 - **css/**: Carpeta que contiene los archivos de estilos CSS.
+  - **cart.css**: Estilos para la página del carrito de compras.
   - **detail.css**: Estilos para la página de detalles de productos.
   - **login.css**: Estilos para la página de inicio de sesión.
   - **main_page.css**: Estilos para la página principal.
@@ -44,6 +52,10 @@ php/
   - **config.php**: Archivo de configuración para la conexión a la base de datos.
   - **login_register.php**: Lógica para el registro e inicio de sesión de usuarios.
   - **logout.php**: Lógica para cerrar sesión.
+- **config/**: Carpeta que contiene configuraciones adicionales.
+  - **db_config.sql**: Archivo SQL para la configuración de la base de datos.
+- **.gitignore**: Archivo para excluir ciertas carpetas o archivos del control de versiones.
+- **README.md**: Documentación del proyecto.
 
 ## Requisitos
 
@@ -79,6 +91,7 @@ CREATE TABLE users (
   - **Admin**: Acceso a `admin_page.php`.
   - **User**: Acceso a `user_page.php`.
 - **Gestión de Productos**: Visualización de detalles de productos en `product_detail.php`.
+- **Carrito de Compras**: Gestión de productos en el carrito desde `cart.html`.
 
 ## Notas
 
