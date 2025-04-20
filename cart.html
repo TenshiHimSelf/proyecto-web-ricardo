@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de compra</title>
+  <link rel="stylesheet" href="css/cart.css">  <!-- la version cambia dependiendo del dia que se realicen cambios, anio - mes - dia -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+  <nav>
+    <a href="user_page.php" class="logo">Amerian Style</a>
+    <a href="cart.html" class="cart-icon">
+      <i class="ri-shopping-bag-4-line"></i>
+      <span class="cart-item-count"></span>
+    </a>
+  </nav>
+
+
+  <div class="cart">
+    <div class="cart-header">
+      <span>Product</span>
+      <span>Price</span>
+      <span>Quantity</span>
+      <span>Total</span>
+      <span>Remove</span>
+    </div>
+    <div class="cart-items">
+      <!--<div class="cart-item">
+        <div class="product">
+          <img src="../images/product1_green_1.jpg">
+          <div class="item-detail">
+            <p>Men Casual Round Neck T-Shirt</p>
+            <div class="size-color-box">
+              <span class="size">L</span>
+              <span class="color">Green</span>
+            </div>
+          </div>
+        </div>
+        <span class="price">$100</span>
+        <div class="quantity"><input type="number" value="1" min="1"></div>
+        <span class="total-price">$100</span>
+        <button class="remove"> <i class="ri-close-line"></i></button>
+      </div> -->
+    </div> 
+    <div class="cart-total">
+      <h3>Cart Total</h3>
+      <p>Subtotal <span class="subtotal">$0</span></p> <!-- Ensure this element exists -->
+      <p>Delivery Fee <span>Free</span></p>
+      <p>Grand Total <span class="grand-total">$0</span></p> <!-- Ensure this element exists -->
+      <button class="btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+
+
+  <script src="js/main_page.js"></script>
+</body>
+</html>

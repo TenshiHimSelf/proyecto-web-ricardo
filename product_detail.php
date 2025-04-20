@@ -23,7 +23,7 @@ if (!isset($_SESSION['email'])) {
 
 <nav>
     <a href="user_page.php" class="logo">Amerian Style</a>
-    <a href="cart.php" class="cart-icon">
+    <a href="cart.html" class="cart-icon">
       <i class="ri-shopping-bag-4-line"></i>
       <span class="cart-item-count"></span>
     </a>
