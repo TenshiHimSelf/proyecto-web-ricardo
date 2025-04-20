@@ -6,33 +6,51 @@ Este proyecto es una aplicación web básica que incluye funcionalidades de regi
 
 ```
 login.php
+product_detail.php
+user_page.php
 css/
+    detail.css
     login.css
+    main_page.css
+images/
+    ... (imágenes de productos)
 js/
     login.js
+    main_page.js
+    products.js
 php/
     admin_page.php
     config.php
     login_register.php
-    user_page.php
+    logout.php
 ```
 
 ### Archivos y Carpetas Principales
 
 - **login.php**: Página principal para el inicio de sesión y registro de usuarios.
-- **css/login.css**: Archivo de estilos CSS para la página de inicio de sesión.
-- **js/login.js**: Archivo JavaScript para funcionalidades relacionadas con el inicio de sesión.
+- **product_detail.php**: Página para mostrar los detalles de un producto.
+- **user_page.php**: Página para usuarios con rol estándar.
+- **css/**: Carpeta que contiene los archivos de estilos CSS.
+  - **detail.css**: Estilos para la página de detalles de productos.
+  - **login.css**: Estilos para la página de inicio de sesión.
+  - **main_page.css**: Estilos para la página principal.
+- **images/**: Carpeta que contiene imágenes de productos.
+- **js/**: Carpeta que contiene los archivos JavaScript.
+  - **login.js**: Funcionalidades relacionadas con el inicio de sesión.
+  - **main_page.js**: Funcionalidades de la página principal.
+  - **products.js**: Funcionalidades relacionadas con los productos.
 - **php/**: Carpeta que contiene los archivos PHP principales:
   - **admin_page.php**: Página para usuarios con rol de administrador.
   - **config.php**: Archivo de configuración para la conexión a la base de datos.
   - **login_register.php**: Lógica para el registro e inicio de sesión de usuarios.
-  - **user_page.php**: Página para usuarios con rol estándar.
+  - **logout.php**: Lógica para cerrar sesión.
 
 ## Requisitos
 
 - **Servidor Web**: Se recomienda usar XAMPP.
 - **PHP**: Versión 7.4 o superior.
 - **MySQL**: Base de datos para almacenar usuarios y roles.
+- **Navegador Web**: Cualquier navegador moderno como Google Chrome, Firefox, Edge, etc.
 
 ## Configuración
 
@@ -60,6 +78,7 @@ CREATE TABLE users (
 - **Roles de Usuario**:
   - **Admin**: Acceso a `admin_page.php`.
   - **User**: Acceso a `user_page.php`.
+- **Gestión de Productos**: Visualización de detalles de productos en `product_detail.php`.
 
 ## Notas
 
