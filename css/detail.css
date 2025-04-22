@@ -160,3 +160,85 @@ product-detail .price {
   color: white;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 5%;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  nav .cart-icon {
+    font-size: 25px;
+  }
+
+  .product-detail {
+    grid-template-columns: 1fr; /* Stack content vertically */
+    padding: 80px 5% 20px;
+  }
+
+  .product-detail .product-img {
+    grid-template-columns: 1fr; /* Single column for images */
+    height: auto;
+  }
+
+  .product-detail .thumbnail-list {
+    flex-direction: row; /* Display thumbnails in a row */
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .product-detail .thumbnail-list img {
+    height: 60px; /* Adjust thumbnail size */
+  }
+
+  .product-detail .product-info {
+    padding-top: 20px;
+  }
+
+  .btn {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  nav .cart-icon {
+    font-size: 22px;
+  }
+
+  .product-detail {
+    padding: 60px 5% 15px;
+  }
+
+  .product-detail .thumbnail-list img {
+    height: 50px; /* Further reduce thumbnail size */
+  }
+
+  .product-detail .title {
+    font-size: 20px;
+  }
+
+  .product-detail .price {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 8px 30px;
+    font-size: 12px;
+  }
+}
