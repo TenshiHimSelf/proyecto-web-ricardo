@@ -17,7 +17,7 @@ nav {
   top: 0px;
   left: 0px;
   width: 100%;
-  padding: 20px 5%; /* Adjusted padding for better centering */
+  padding: 20px 5%; 
   background: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -222,12 +222,12 @@ product-detail .thumbnail-list {
 }
 
 .logout:hover {
-  background-color: #575a57; /* Cambia a un color más elegante */
+  background-color: #575a57; 
   color: white;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Responsive styles for tablets */
+/* Media Queries Tablets */
 @media (max-width: 768px) {
   nav {
     padding: 15px 5%;
@@ -259,7 +259,7 @@ product-detail .thumbnail-list {
   }
 }
 
-/* Responsive styles for mobile devices */
+/* Media Queries Mobiles */
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
