@@ -33,6 +33,7 @@ if (!isset($_SESSION['email'])) {
   <section class="product-collection">
     <!--Revisar bien los directorios-->
   <button class="logout" onclick="window.location.href='php/logout.php'">logout</button>
+  <h1>Bienvenido, <span><?= $_SESSION['name']; ?></span></h1>
     <h1>Ultima colección agregada</h1>
     <div class="product-list">
 

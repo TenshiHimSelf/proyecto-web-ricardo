@@ -1,3 +1,4 @@
+//Comprobacion de que el archivo es leido
 console.log("main_page.js Funcional");
 const productContainer = document.querySelector(".product-list");
 const isProductDetailPage = document.querySelector(".product-detail");
@@ -24,7 +25,7 @@ function displayProduct() {
     `;  
     productContainer.appendChild(productCard);
 
-    // Log the image path for debugging
+    //  Comprobacion de las imagenes en pantalla
     console.log("Image path:", product.colors[0].mainImage);
 
     const imgBox = productCard.querySelector(".img-box");
@@ -55,7 +56,7 @@ function displayProductDetail() {
       selectedSize = colorData.sizes[0];
     }
 
-    // Log the main image path for debugging
+    //Comprobacion de la imagen Main en pantalla
     console.log("Main image path:", colorData.mainImage);
 
     mainImageContainer.innerHTML = `<img src="${colorData.mainImage}">`;
@@ -127,13 +128,13 @@ function addToCart(product, color, size) {
       id: product.id,
       title: product.title,
       price: product.price,
-      image: color.mainImage, // Ensure the main image is stored correctly
+      image: color.mainImage,
       color: color.name,
       size: size,
       quantity: 1
     });
 
-    // Debugging log to verify the image is stored
+    
     console.log("Added to cart:", {
       id: product.id,
       title: product.title,

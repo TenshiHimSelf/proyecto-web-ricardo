@@ -8,7 +8,7 @@ if (!isset($_SESSION['email'])) {
 
 ?>
 
-
+<!--Esta parte no fue temrinada, realmente me mate haciendo los archivos .js que quede quemado. -->
 
 <!DOCTYPE html>
 <html lang="en">

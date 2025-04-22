@@ -38,11 +38,6 @@ if (!isset($_SESSION['email'])) {
       </div>
     </div>
 
-
-
-
-
-
     <div class="product-info">
       <h2 class="title"></h2>
       <div class="rating">
@@ -75,14 +70,6 @@ if (!isset($_SESSION['email'])) {
 
     </div>
   </div>
-
-
-
-
-
-
-
-
   <!--Revisar bien los directorios-->
   <script src="js/main_page.js"></script>
 
