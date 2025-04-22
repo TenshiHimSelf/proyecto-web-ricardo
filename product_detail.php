@@ -12,12 +12,11 @@ if (!isset($_SESSION['email'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Detail</title>
+  <title>Descripción del producto</title>
   <link rel="stylesheet" href="css/detail.css?v=20250416">  <!-- la version cambia dependiendo del dia que se realicen cambios, anio - mes - dia -->
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet">
-  
 </head>
 <body>
 
@@ -57,21 +56,21 @@ if (!isset($_SESSION['email'])) {
       <span class="price"></span>
       <p class="description"></p>
       <div class="size-selection">
-        <p>Select Size</p>
+        <p>Seleccionar tamaño</p>
         <div class="size-options">
 
         </div>
       </div>
       <div class="color-selection">
-        <p>Select Color</p>
+        <p>Seleccionar color</p>
         <div class="color-options">
 
         </div>
       </div>
-      <button class="btn" id="add-cart-btn">Add to Cart</button>
+      <button class="btn" id="add-cart-btn">Añadir al carrito</button>
       <div class="product-policy">
-        <p>100% Original Product.</p>
-        <p>Easy return and exchange policy within 14 days.</p>
+        <p>Producto 100% original.</p>
+        <p>Póliza de devolución por 14 días.</p>
       </div>
 
     </div>
@@ -85,15 +84,6 @@ if (!isset($_SESSION['email'])) {
 
 
   <!--Revisar bien los directorios-->
-
-
-
-
-
-
-
-
-
   <script src="js/main_page.js"></script>
 
 </body>

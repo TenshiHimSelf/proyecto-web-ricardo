@@ -32,17 +32,14 @@ if (!isset($_SESSION['email'])) {
 
   <section class="product-collection">
     <!--Revisar bien los directorios-->
-  <button onclick="window.location.href='php/logout.php'">logout</button>
-    <h1>Latest Collection</h1>
+  <button class="logout" onclick="window.location.href='php/logout.php'">logout</button>
+    <h1>Ultima colección agregada</h1>
     <div class="product-list">
 
     </div>
   </section>
 
-
-
-
-
+<!--Las variables estan disponible de manera global, no sabia esto, pensaba que la unica manera era exportar-->
   <script src="js/products.js"></script>
   <script src="js/main_page.js"></script>
 </body>
